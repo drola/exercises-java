@@ -82,6 +82,8 @@ public class IntegerSortTest {
 		implementations.add(InsertionSort.class);
 		implementations.add(MergeSort.class);
 		implementations.add(BubbleSort.class);
+		implementations.add(HeapSort.class);
+		implementations.add(QuickSort.class);
 		return implementations;
 	}
 }
